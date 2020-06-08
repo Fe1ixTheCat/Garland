@@ -1,0 +1,145 @@
+/*************main_objects*********************/
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	background-color:;
+	transition: 0.3s;
+}
+
+main {
+	width: 800px;
+	height: 800px;
+	//background-image: url(img/bg.png);
+}
+
+img {
+	transform: rotate(180deg);
+	border-radius: 50px;
+	position: relative;
+	width: 80px;
+	filter: blur(0.5px);
+	transition: 0.3s;
+}
+
+* img:hover {
+	position: relative;
+}
+
+/***************color_classes******************/
+
+.noColor {
+}
+
+.blue {
+}
+
+.green {
+}
+
+.red {
+}
+
+/**************lights_settings******************/
+#first {
+	top: 95px;
+	left: 90px;
+}
+
+#second {
+	top: 110px;
+	left: 270px;
+}
+
+#third {
+	top: 100px;
+	left: 437px;
+}
+
+#four {
+	top: 377px;
+	right: 145px;
+}
+
+#five {
+	top: 380px;
+	left: 30px;
+}
+
+#seven {
+	top: 365px;
+	left: 119px;
+}
+
+#six {
+	top: 596px;
+	right: 332px;
+}
+
+#eight {
+	top: 626px;
+	right: 220px;
+}
+
+#nine {
+	top: 621px;
+	right: 50px;
+}
+
+/**************button_settings******************/
+
+.buttons {
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	button {
+		position: relative;
+		width: 60px;
+		height: 30px;
+		border: 0;
+		border-radius: 10px;
+		background-color: #aaa;
+	}
+	button:focus {
+		outline: 0;
+	}
+	button:active {
+		top: 2px;
+		left: 2px;
+	}
+}
+
+nav {
+	position: fixed;
+	top: 50px;
+	right: 5px;
+	.item-light {
+		background-color: #aaa;
+		width: 100px;
+		height: 100px;
+		display: grid;
+		grid-template-columns: repeat(3, 33.33%);
+		grid-column-gap: 2%;
+		grid-row-gap: 2%;
+		border-radius: 15px;
+		padding: 9px 14px 10px 10px;
+
+		button {
+			background-color: #bbb;
+			position: relative;
+			width: 100%;
+			border: 0px;
+			border-radius: 5px;
+		}
+		button:focus {
+			outline: 0;
+		}
+		button:active {
+			top: 2px;
+			left: 2px;
+		}
+	}
+}
